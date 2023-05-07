@@ -52,6 +52,7 @@ def main():
 
     time = int(input("How much time has passed from the previous dose "
                      "(full hours): "))
+    
     total_doze_24 = int(input("The total dose for the last 24 hours (mg): "))
 
     paracetamol = calculate_dose(weight, time, total_doze_24)
